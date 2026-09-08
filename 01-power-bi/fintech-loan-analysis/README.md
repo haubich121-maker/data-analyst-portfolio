@@ -10,7 +10,7 @@ The objective of this analysis is to identify the key drivers behind this perfor
 
 ---
 
-##Business Problem
+## Business Problem
 
 Loan applications increased significantly following marketing expansion.
 
