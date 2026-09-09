@@ -2,79 +2,78 @@
 
 ## Project Overview
 
-This project analyzes loan application and disbursement performance for a fintech business.
+This project analyzes loan application, approval and disbursement performance for a fintech business.
 
-The business experienced an increase in loan applications, while total disbursed value declined.
+The business experienced a significant increase in loan applications following marketing expansion. However, total disbursed value declined.
 
-The objective of this analysis is to identify the key drivers behind this performance gap and provide actionable business recommendations.
+The objective of this project is to identify the key drivers behind this performance gap and provide actionable business recommendations.
 
 ---
 
 ## Business Problem
 
-Loan applications increased significantly following marketing expansion.
+> Why did loan applications increase while total disbursed value decreased?
 
-However, total disbursed value decreased.
+The analysis investigates the problem through:
 
-This raises several business questions:
-
-- Why are more customers applying for loans but generating lower disbursement value?
-- Where is the biggest drop-off in the loan funnel?
-- Which customer segments contribute most to the decline?
-- Are approval rates, loan amounts, or customer risk profiles changing?
-- What actions should the business prioritize?
-
----
-
-## Key Business Questions
-
-1. How are loan applications and disbursement values trending over time?
-2. What is the conversion rate from application to disbursement?
-3. Which segments have the strongest and weakest performance?
-4. What factors are driving the decline in disbursed value?
-5. What business actions can improve loan performance?
+- Application volume
+- Customer quality
+- Credit score
+- Risk profile
+- Rejection reasons
+- Funnel conversion
+- Acquisition channels
+- Disbursement performance
 
 ---
 
-## Tools & Technologies
+## Business Objectives
 
+1. Understand application growth.
+2. Evaluate customer and credit quality.
+3. Identify major rejection drivers.
+4. Analyze the loan conversion funnel.
+5. Evaluate acquisition channel performance.
+6. Identify opportunities to improve disbursement performance.
+
+---
+
+## Tools
+
+- PostgreSQL
+- SQL
 - Power BI
 - DAX
 - Power Query
-- SQL
-- PostgreSQL
-- Data Visualization
+- Excel
 
 ---
 
-## Analysis Areas
+## Analytical Approach
 
-### Executive Summary
+The analysis follows the business journey:
 
-Monitor the overall business performance through key KPIs:
+**Marketing**
 
-- Loan Applications
-- Approved Loans
-- Disbursed Loans
-- Disbursed Value
-- Approval Rate
-- Disbursement Rate
+↓
 
-### Loan Funnel Analysis
+**Loan Applications**
 
-Analyze the customer journey:
+↓
 
-Application → Approval → Disbursement
+**Credit Assessment**
 
-Identify the stages with the highest drop-off.
+↓
 
-### Customer & Risk Analysis
+**Approval**
 
-Analyze loan performance across customer segments and risk-related dimensions.
+↓
 
-### Trend Analysis
+**Disbursement**
 
-Evaluate changes in applications, approvals and disbursement over time.
+The analysis then investigates:
+
+**Customer Mix → Risk Profile → Credit Score → Rejection Reasons**
 
 ---
 
@@ -82,50 +81,165 @@ Evaluate changes in applications, approvals and disbursement over time.
 
 The Power BI dashboard contains five analytical pages:
 
-- Executive Summary
-- Storytelling
-- KPI
-- Funnel
-- Customer / Risk
+### 1. Executive Summary
+
+Provides an overview of business performance and the main performance gap.
+
+[View Dashboard](./dashboard/)
+
+### 2. Storytelling
+
+Follows the analytical journey from application volume to customer quality, risk and rejection reasons.
+
+### 3. KPI Analysis
+
+Monitors core performance indicators such as:
+
+- Applications
+- Approval Rate
+- Disbursement Rate
+- Average Disbursed Amount
+- Disbursed Value
+
+### 4. Funnel Analysis
+
+Analyzes the conversion journey from application to approval and disbursement.
+
+### 5. Customer & Risk Analysis
+
+Analyzes customer characteristics, credit quality, risk bands and rejection reasons.
 
 ---
 
-## Key Insights
+## Key Findings
 
-Key findings from the analysis will be documented here after completing the analysis.
+### Finding 1 — Application volume increased
 
-The analysis focuses on identifying:
+Loan applications increased significantly following marketing expansion.
 
-- Major performance gaps
-- Funnel bottlenecks
-- Customer segment differences
-- Risk-related patterns
-- Drivers of declining disbursement value
+However, application growth did not translate proportionally into disbursed value.
+
+### Finding 2 — Credit quality weakened
+
+Average credit score decreased from approximately 685 to 634.
+
+This indicates a deterioration in the quality of newly acquired applicants.
+
+### Finding 3 — Higher-risk segments affected approval performance
+
+Higher-risk customer segments showed weaker approval performance.
+
+### Finding 4 — Rejection reasons reveal application-quality issues
+
+Key rejection reasons include:
+
+- Low Credit Score
+- High Debt-to-Income
+- Income Not Verified
+- Incomplete Profile
+- Policy Rule Hit
+
+---
+
+## Root Cause
+
+The performance gap can be summarized as:
+
+**Application Growth**
+
+↓
+
+**Weaker Customer Quality**
+
+↓
+
+**Higher Risk / Lower Credit Quality**
+
+↓
+
+**Lower Approval Conversion**
+
+↓
+
+**Lower Disbursement**
+
+Therefore:
+
+> **More Applications ≠ More Disbursement**
 
 ---
 
 ## Business Recommendations
 
-Recommendations will focus on:
+### 1. Shift from volume-based to quality-based acquisition
 
-- Improving loan conversion
-- Optimizing customer targeting
-- Monitoring approval performance
-- Improving disbursement efficiency
-- Prioritizing high-value customer segments
+Evaluate acquisition performance using:
+
+- Application Volume
+- Approval Rate
+- Disbursement Rate
+- Disbursed Value
+
+### 2. Review high-risk acquisition sources
+
+Identify channels and campaigns with:
+
+- High Risk C–E share
+- Low Approval Rate
+- Low Disbursement Rate
+- High rejection rate
+
+### 3. Improve application quality
+
+Focus on:
+
+- Income verification
+- Profile completeness
+- Credit-quality screening
+- Debt-to-income assessment
+
+### 4. Optimize marketing budget
+
+Prioritize channels that generate successful downstream outcomes rather than only high application volume.
 
 ---
 
-## Skills Demonstrated
+## KPI Framework
 
-- Business problem solving
-- Data cleaning
-- Data transformation
-- SQL analysis
-- DAX
-- KPI development
-- Funnel analysis
-- Customer segmentation
-- Dashboard development
-- Data storytelling
-- Business recommendations
+| Business Area | KPI |
+|---|---|
+| Acquisition | Applications |
+| Credit Quality | Average Credit Score |
+| Risk | Risk Band |
+| Approval | Approval Rate |
+| Conversion | Disbursement Rate |
+| Business Outcome | Disbursed Value |
+| Efficiency | Average Disbursed Amount |
+
+---
+
+## Project Structure
+
+```text
+fintech-loan-analysis/
+│
+├── README.md
+│
+├── dashboard/
+│   ├── README.md
+│   ├── executive-summary.png
+│   ├── storytelling.png
+│   ├── kpi.png
+│   ├── funnel.png
+│   ├── customer-risk-01.png
+│   └── customer-risk-02.png
+│
+├── insights/
+│   └── business-insights.md
+│
+├── sql/
+│   └── analysis.sql
+│
+└── dashboard-file/
+    ├── README.md
+    └── 1607_CS1_Tran_Hau.pbix
