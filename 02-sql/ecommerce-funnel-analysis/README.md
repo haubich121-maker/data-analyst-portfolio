@@ -355,14 +355,7 @@ This project applies:
 ecommerce-funnel-analysis/
 ├── README.md
 └── queries.sql
-
----
-
-# Bước 12 — Key Takeaway
-
-Cuối cùng:
-
-```markdown
+```
 ---
 
 ## 11. Key Takeaway
