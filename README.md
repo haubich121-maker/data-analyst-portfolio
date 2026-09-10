@@ -1,124 +1,121 @@
- # Hi, I'm Trần Thị Bích Hậu
+# Trần Thị Bích Hậu
 
-### Data Analyst | BI Analyst
+### Fintech Student | Aspiring Data Analyst / BI Analyst
 
-I'm a final-year Fintech student passionate about turning data into actionable business insights.
+Final-year Fintech student at Ho Chi Minh City University of Industry and Trade (HUIT), with a strong interest in Data Analytics, Business Intelligence, and Fintech.
 
-I enjoy working with data to understand **what happened, why it happened, and what the business should do next**.
-
----
-
-## Skills
-
-**Data Analysis**
-
-* SQL
-* PostgreSQL
-* Excel
-* Data Cleaning
-* Exploratory Data Analysis
-
-**Business Intelligence**
-
-* Power BI
-* DAX
-* Power Query
-* Data Visualization
-* Dashboard Development
-
-**Business Analytics**
-
-* KPI Analysis
-* Funnel Analysis
-* Customer Analysis
-* Conversion Analysis
-* Business Insight & Recommendations
+I enjoy turning business questions into structured analysis, identifying meaningful patterns in data, and translating findings into actionable business insights.
 
 ---
 
-## Featured Projects
+## About Me
 
-### 01 — Fintech Loan Performance Analysis
-
-**Tools:** Power BI · DAX · Power Query · SQL
-
-**Business Problem**
-
-Loan applications increased significantly, but total disbursed value decreased.
-
-The objective was to identify the key drivers behind the decline and provide actionable business recommendations.
-
-**Analysis Areas**
-
-* Loan application trends
-* Approval & disbursement performance
-* Conversion funnel
-* Customer segmentation
-* Risk analysis
-* KPI monitoring
-
-**Key Skills Demonstrated**
-
-* Business problem framing
-* Data transformation
-* KPI development
-* Dashboard design
-* Root-cause analysis
-* Business recommendations
-
-[View Project](./01-power-bi/fintech-loan-analysis/)
+- Final-year Fintech student at HUIT
+- Career focus: Data Analyst / BI Analyst
+- Interested in Business Analytics, Fintech, and data-driven decision-making
+- Hands-on experience with SQL, PostgreSQL, Power BI, DAX, Power Query, and Excel
+- Interested in connecting data analysis with real-world business problems and decisions
 
 ---
 
-### 02 — E-commerce Funnel & Conversion Analysis
+# Portfolio Projects
 
-**Tools:** SQL · PostgreSQL · Power BI
+## 01 — Fintech Loan Analysis | Power BI
 
-Analyzed customer behavior across the e-commerce funnel:
+### Business Question
 
-**View → Add to Cart → Checkout → Purchase**
+> Why did loan applications increase while downstream loan outcomes did not improve at the same pace?
 
-The project focuses on identifying conversion bottlenecks and evaluating performance across acquisition channels.
+This project analyzes the loan application funnel and investigates changes in customer credit quality, risk profile, rejection reasons, acquisition channels, and disbursement performance.
 
-👉 [View Project](./02-sql/ecommerce-funnel-analysis/)
+### Key Analysis
 
----
+- Application volume and growth
+- Credit score and customer quality
+- Risk band distribution
+- Rejection reasons
+- Application funnel
+- Approved-to-disbursed conversion
+- Acquisition channel performance
+- Marketing performance
 
-### 03 — Business Data Analysis Cases
+### Tools
 
-A collection of practical business cases using SQL, Excel and Power BI to answer real-world business questions.
+`PostgreSQL` `SQL` `Power BI` `DAX` `Power Query` `Excel`
 
-[View Cases](./03-business-cases/)
+### Project
 
----
-
-## What I Can Do
-
-* Transform raw data into analysis-ready datasets
-* Write SQL queries to answer business questions
-* Build interactive Power BI dashboards
-* Create DAX measures and KPIs
-* Analyze funnels and conversion rates
-* Identify trends and business problems
-* Translate data findings into actionable recommendations
+[View Fintech Loan Analysis](./01-power-bi/fintech-loan-analysis/)
 
 ---
 
-## Career Goal
+## 02 — E-commerce Funnel Analysis | SQL
 
-I'm currently seeking opportunities in:
+### Business Question
 
-* Data Analyst
-* BI Analyst
-* Business Data Analyst
-* Business Intelligence Intern
+> Where are the biggest conversion opportunities in the e-commerce customer funnel?
 
-I'm particularly interested in using data and technology to solve business problems in **Fintech, Banking and Digital Business**.
+This project analyzes customer sessions, product interactions, checkout behavior, purchases, revenue, acquisition channels, customer segments, and device performance.
+
+### Key Analysis
+
+- Overall conversion funnel
+- View Product → Add to Cart → Checkout → Purchase
+- Funnel conversion by acquisition channel
+- Revenue by acquisition channel
+- Customer segment performance
+- Device performance
+- Daily conversion and revenue trends
+
+### Key Finding
+
+The largest funnel drop-off occurs between **View Product and Add to Cart**, highlighting an area that warrants further investigation to understand potential conversion opportunities.
+
+### Tools
+
+`PostgreSQL` `SQL` `DBeaver`
+
+### Project
+
+[View E-commerce Funnel Analysis](./02-sql/ecommerce-funnel-analysis/)
 
 ---
 
-## Contact
+## 03 — Fintech Loan Performance | Business Case
 
-**GitHub:** [haubich121-maker](https://github.com/haubich121-maker)
+### Business Question
 
-Feel free to explore my projects and connect with me.
+> How can a fintech lending business improve growth quality and downstream conversion?
+
+This business case focuses on business problem framing, root-cause analysis, hypothesis development, KPI design, and actionable recommendations.
+
+### Key Areas
+
+- Application growth
+- Applicant credit quality
+- Risk profile
+- Rejection analysis
+- Approved-to-disbursed conversion
+- Acquisition channel quality
+- Business KPI framework
+
+### Business Perspective
+The analysis goes beyond application volume and examines the relationship between:
+
+```text
+Acquisition
+    ↓
+Applicant Quality
+    ↓
+Credit Decision
+    ↓
+Approval
+    ↓
+Disbursement
+```
+
+# Contact
+
+- Email: [haubich121@gmail.com](mailto:haubich121@gmail.com)
+- LinkedIn: [Trần Thị Bích Hậu](https://www.linkedin.com/in/tr%E1%BA%A7n-h%E1%BA%ADu-853132300/)
+
