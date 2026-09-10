@@ -93,6 +93,7 @@ customers
                     │
                     ▼
                   orders
+```
 
 ---
 
