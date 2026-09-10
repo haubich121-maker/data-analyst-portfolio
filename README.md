@@ -113,7 +113,65 @@ Approval
     ↓
 Disbursement
 ```
+---
 
+## Skills & Tools
+
+### Data Analysis
+- Exploratory Data Analysis
+- Funnel Analysis
+- Conversion Analysis
+- KPI Analysis
+- Customer & Segmentation Analysis
+- Business Performance Analysis
+- Root Cause Analysis
+
+### SQL & Database
+- PostgreSQL
+- SQL
+- CTEs
+- Window Functions
+- Aggregations
+- Joins
+- CASE WHEN
+- Date & Time Functions
+
+### Business Intelligence
+- Power BI
+- DAX
+- Power Query
+- Data Modeling
+- Dashboard Design
+- KPI Reporting
+
+### Other Tools
+- Excel
+- DBeaver
+- GitHub
+
+---
+
+## Analytical Approach
+
+I approach data analysis by connecting business questions with measurable data.
+
+```text
+Business Question
+       ↓
+Data Understanding
+       ↓
+Data Cleaning & Validation
+       ↓
+Exploratory Analysis
+       ↓
+KPI & Funnel Analysis
+       ↓
+Identify Patterns & Hypotheses
+       ↓
+Business Insights
+       ↓
+Actionable Recommendations
+```
 # Contact
 
 - Email: [haubich121@gmail.com](mailto:haubich121@gmail.com)
